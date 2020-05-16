@@ -4,4 +4,5 @@
     <string name="password_hint">password</string>
     <string name="name_hint">Name</string>
     <string name="otp_hint">OTP</string>
+    <string name="button_signup">SIGNUP</string>
 </resources>

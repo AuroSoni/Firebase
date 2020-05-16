@@ -22,7 +22,8 @@
         android:textColorHint="@color/hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
     <EditText
         android:id="@+id/editText_login_password"
         android:layout_width="match_parent"
@@ -32,13 +33,14 @@
         android:layout_marginEnd="10dp"
         android:ems="10"
         android:gravity="center"
-        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
         android:padding="6sp"
         android:hint="@string/password_hint"
         android:textColorHint="@color/hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button_login_submit"
@@ -46,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:padding="15dp"
-        android:text="LOGIN"
+        android:text="@string/button_login"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,8 +61,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
-        android:textSize="15dp"
-        android:text="SignUp"
+        android:textSize="15sp"
+        android:text="@string/query_signup"
         android:textColor="@color/hyperlink"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

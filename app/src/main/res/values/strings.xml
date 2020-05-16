@@ -5,4 +5,6 @@
     <string name="name_hint">Name</string>
     <string name="otp_hint">OTP</string>
     <string name="button_signup">SIGNUP</string>
+    <string name="query_signup">SignUp</string>
+    <string name="button_login">LOGIN</string>
 </resources>
